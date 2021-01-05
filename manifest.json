@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Share To Facebook Twitter Pinterest",
+  "short_name": "Share Utility",
+  "version": "0.1",
+  "AddDefaultCharset": "utf-8",
+  "description": "Utility to share on current URL on Facebook, Twitter, Pinterest a simple, effective way",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon16.png",
+    "default_popup": "page/popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "homepage_url": "https://www.webtech360.com/?source=ext_share-button_menu",
+  "author": "WebTech360"
+}
